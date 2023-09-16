@@ -1,0 +1,94 @@
+/* Style the image to float right */
+
+
+.content {
+    position: relative; /* Position the content container as reference */
+}
+
+.image-container {
+
+   float: right;
+   margin-left: 20px; /* Add some space between the image and the text */
+   margin-top: 0px; /* Add some space between the image and the text */
+   padding-top: 05px; /* Add padding i to control the space */
+}
+
+/* Apply default font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: Yellow; /* Setting background color to yellow */
+    font-size: 14px; /* 14 pixels */
+    color: navy; /* Text color */
+}
+
+/* Apply specific styles to paragraphs and links */
+
+#one{  /* used id to target specific paragraph */
+    font-family: 'Impact';
+    color: red;
+    font-size: 20px;
+}
+
+#two{  /* used id to target specific paragraph */
+    font-family: 'Impact';
+    color: Black;
+    font-size: 14px;
+}
+p {
+    color: green;
+    font-size: 1.1em; /*1.1 times the current font size */
+    margin: 10pt; /* 10 points */
+    width: 100%; /* 100 percent */
+}
+
+a {
+    color: blue;
+}
+
+/* Style the header */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style h1 & h2 headings */
+h1, h2 {
+    margin: 2; /* Reset some margin */
+    padding: 2; /* Reset some padding */
+}
+
+/* Style the main content area */
+main {
+   
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+    header, footer {
+        padding: 10px;
+    }
+}
+
+.Pariza{ 
+    
+    text-align: justify;
+}
